@@ -1,9 +1,7 @@
-newmtl chair:phongE4SG
+newmtl baked22_baked22_chair_phongE4SG_chair_polySurface1SG_chair_polySurface1SG
 illum 4
 Kd 1.00 1.00 1.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd chair.jpg
 Ni 1.00
-Ks 0.50 0.50 0.50
-Ns 0.06
