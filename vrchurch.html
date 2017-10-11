@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Models</title>
+    <meta name="description" content="Models — A-Frame">
+
+<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.6.1/dist/altspace.min.js"></script>
+</head>
+
+  </head>
+  <body>
+    <a-scene altspace="fullspace: true">
+
+
+ <a-assets>
+        <a-asset-item id="chair-mtl" src="chair.mtl"></a-asset-item>
+        <a-asset-item id="chair-obj" src="chair.obj"></a-asset-item>
+
+        <a-asset-item id="stage-mtl" src="stage.mtl"></a-asset-item>
+        <a-asset-item id="stage-obj" src="stage.obj"></a-asset-item>
+
+        <a-asset-item id="vail-mtl" src="vail.mtl"></a-asset-item>
+        <a-asset-item id="vail-obj" src="vail.obj"></a-asset-item>
+
+        <a-asset-item id="wall-mtl" src="wall.mtl"></a-asset-item>
+        <a-asset-item id="wall-obj" src="wall.obj"></a-asset-item>
+
+        <img id="sky1" src="sky.jpg">
+        <img id="graund" src="sougen.jpg">
+
+</a-assets>
+<a-plane material="shader: flat; src: #graund ; repeat:400 400 "  height="1000" width="1000" position="0 0 0"  rotation="-90 0 90" altspace-cursor-collider='enabled: false'></a-plane>
+
+
+<a-entity position="0 5 5" rotation="0 45 0" scale="2 2 2" n-layout-browser="url:http://www.google.com"></a-entity>
+
+<!--
+<a-entity position="18.36 0 -37.56" rotation="0 -90 0" scale="4 4 4">
+
+
+
+
+
+<a-obj-model src="#chair-obj" mtl="#chair-mtl" n-mesh-collider="type: environment; convex: false" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+<a-obj-model src="#stage-obj" mtl="#stage-mtl" n-mesh-collider="type: environment; convex: false" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+<a-obj-model src="#vail-obj" mtl="#vail-mtl" n-mesh-collider="type: environment; convex: false" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+<a-obj-model src="#wall-obj" mtl="#wall-mtl" n-mesh-collider="type: environment; convex: false" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+
+
+
+-->
+
+
+
+
+
+
+</a-scene>
+  </body>
+</html>
